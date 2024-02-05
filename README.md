@@ -24,7 +24,7 @@ This project implements ElasticSearch features using the Trie data structure, pr
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/robin00007/Elastic_search.git
    ```
 
 2. Install dependencies:
