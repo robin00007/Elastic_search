@@ -1,4 +1,4 @@
-import { useEffect} from "react";
+import { useEffect } from "react";
 import { insertDataToGraph, searchQuery } from "../algo/trie";
 
 // Initialize variables and set up a timer
@@ -6,14 +6,14 @@ let timer;
 
 // Define the useSuggest custom hook
 // This hook is responsible for managing the search input and suggestions.
-const useSuggest = (search, setSuggestions) => {
+const useSuggest = (search, setSuggestions, data, entry) => {
   // Commit 3: Initialize state variable
 
   // Use useEffect to handle side effects
   useEffect(() => {
     // Insert data to graph
     // Initialize or update data in the graph (assumption: insertDataToGraph is responsible for this)
-    insertDataToGraph();
+    insertDataToGraph(data);
 
     // Perform search after a delay
     if (search) {
@@ -26,7 +26,7 @@ const useSuggest = (search, setSuggestions) => {
 
         // Perform search query and update suggestions
         // Execute the searchQuery function and update suggestions based on the search input
-        searchQuery(search, setSuggestions);
+        searchQuery(search, setSuggestions, entry);
       }, 1000); // Delay of 1000 milliseconds (1 second)
     }
   }, [search]); // Only re-run the effect if the search input changes

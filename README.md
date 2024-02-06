@@ -1,10 +1,8 @@
 # ElasticSearch with Trie Data Structure
 
-
-
 ## Overview
 
-This project implements ElasticSearch features using the Trie data structure, providing efficient and fast searching capabilities on large datasets. The Trie data structure is leveraged for optimal search performance, and the project is built with React.js and styled with React Advanced UI and Tailwind CSS.
+This project implements ElasticSearch features using the Trie data structure, providing efficient and fast searching capabilities on large datasets. The Trie data structure is leveraged for optimal search performance, and the project is built with React.js.
 
 ## Features
 
@@ -15,6 +13,7 @@ This project implements ElasticSearch features using the Trie data structure, pr
 - Utilizes React Advanced UI and Tailwind CSS for modern and aesthetic design.
 
 ## Technologies Used
+
 - React.js
 - Tailwind CSS
 - React Advanced UI
@@ -41,6 +40,6 @@ This project implements ElasticSearch features using the Trie data structure, pr
 
 4. Open the application in your web browser : http://localhost:3000
 
+# Contributing
 
-# Contributing 
 We welcome contributions from the community! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
